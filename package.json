@@ -58,7 +58,7 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-angular": "^12.1.4",
     "@discordjs/docgen": "^0.10.0",
-    "@types/node": "^12.12.6",
+    "@types/node": "^15.6.0",
     "@types/ws": "^7.4.4",
     "cross-env": "^7.0.3",
     "discord-api-types": "^0.18.1",
