@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.37
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
